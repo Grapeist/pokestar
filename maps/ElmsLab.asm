@@ -121,8 +121,8 @@ CyndaquilPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CYNDAQUIL
-	cry CYNDAQUIL
+	pokepic MAREEP
+	cry MAREEP
 	waitbutton
 	closepokepic
 	opentext
@@ -134,12 +134,12 @@ CyndaquilPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CYNDAQUIL
+	getmonname STRING_BUFFER_3, MAREEP
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CYNDAQUIL, 5, BERRY
+	givepoke MAREEP, 7, BERRY
 	closetext
 	readvar VAR_FACING
 	ifequal RIGHT, ElmDirectionsScript
@@ -151,8 +151,8 @@ TotodilePokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic TOTODILE
-	cry TOTODILE
+	pokepic MACHOP
+	cry MACHOP
 	waitbutton
 	closepokepic
 	opentext
@@ -164,12 +164,12 @@ TotodilePokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, TOTODILE
+	getmonname STRING_BUFFER_3, MACHOP
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke TOTODILE, 5, BERRY
+	givepoke MACHOP, 7, BERRY
 	closetext
 	applymovement PLAYER, AfterTotodileMovement
 	sjump ElmDirectionsScript
@@ -179,8 +179,8 @@ ChikoritaPokeBallScript:
 	iftrue LookAtElmPokeBallScript
 	turnobject ELMSLAB_ELM, DOWN
 	reanchormap
-	pokepic CHIKORITA
-	cry CHIKORITA
+	pokepic HOPPIP
+	cry HOPPIP
 	waitbutton
 	closepokepic
 	opentext
@@ -192,12 +192,12 @@ ChikoritaPokeBallScript:
 	writetext ChoseStarterText
 	promptbutton
 	waitsfx
-	getmonname STRING_BUFFER_3, CHIKORITA
+	getmonname STRING_BUFFER_3, HOPPIP
 	writetext ReceivedStarterText
 	playsound SFX_CAUGHT_MON
 	waitsfx
 	promptbutton
-	givepoke CHIKORITA, 5, BERRY
+	givepoke HOPPIP, 7, BERRY
 	closetext
 	applymovement PLAYER, AfterChikoritaMovement
 	sjump ElmDirectionsScript
