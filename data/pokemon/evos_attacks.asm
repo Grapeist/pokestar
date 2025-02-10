@@ -2517,12 +2517,12 @@ PolitoedEvosAttacks:
 	db 0 ; no more level-up moves
 
 HoppipEvosAttacks:
-	db EVOLVE_LEVEL, 18, SKIPLOOM
+	db EVOLVE_LEVEL, 28, SKIPLOOM
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 1, SYNTHESIS
-	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 1, GROWL
+	db 1, PECK
+	db 5, SCREECH
+	db 10, ROAR
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
@@ -2532,14 +2532,12 @@ HoppipEvosAttacks:
 	db 0 ; no more level-up moves
 
 SkiploomEvosAttacks:
-	db EVOLVE_LEVEL, 27, JUMPLUFF
+	db EVOLVE_LEVEL, 37, JUMPLUFF
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 1, SYNTHESIS
-	db 1, TAIL_WHIP
-	db 1, TACKLE
-	db 5, TAIL_WHIP
-	db 10, TACKLE
+	db 1, GROWL
+	db 1, PECK
+	db 5, SCREECH
+	db 10, ROAR
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
 	db 17, SLEEP_POWDER
@@ -2550,11 +2548,9 @@ SkiploomEvosAttacks:
 
 JumpluffEvosAttacks:
 	db 0 ; no more evolutions
-	db 1, SPLASH
-	db 1, SYNTHESIS
-	db 1, TAIL_WHIP
-	db 1, TACKLE
-	db 5, TAIL_WHIP
+	db 1, GROWL
+	db 1, PECK
+	db 5, SCREECH
 	db 10, TACKLE
 	db 13, POISONPOWDER
 	db 15, STUN_SPORE
